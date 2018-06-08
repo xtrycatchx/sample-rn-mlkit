@@ -4,6 +4,8 @@ import android.app.Application;
 import android.util.Log;
 
 import com.facebook.react.ReactApplication;
+import com.reactlibrary.RNMlKitOcrPackage;
+import com.imagepicker.ImagePickerPackage;
 import com.imagepicker.ImagePickerPackage;
 import com.reactlibrary.RNMlKitOcrPackage;
 
@@ -27,8 +29,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new ImagePickerPackage(),
-            new RNMlKitOcrPackage()
+            new RNMlKitOcrPackage(),
+            new ImagePickerPackage()
       );
     }
 

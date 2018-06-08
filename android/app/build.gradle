@@ -137,6 +137,8 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-ml-kit-ocr')
+    compile project(':react-native-image-picker')
     implementation project(':react-native-image-picker')
     implementation project(':react-native-ml-kit-ocr')
     implementation fileTree(dir: "libs", include: ["*.jar"])
