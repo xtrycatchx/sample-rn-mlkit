@@ -1,0 +1,7 @@
+rootProject.name = 'XYZ'
+include ':react-native-image-picker'
+project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-picker/android')
+include ':react-native-ml-kit-ocr'
+project(':react-native-ml-kit-ocr').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ml-kit-ocr/android')
+
+include ':app'
