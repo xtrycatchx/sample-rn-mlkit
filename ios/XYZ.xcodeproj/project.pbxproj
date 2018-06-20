@@ -1173,6 +1173,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.exampl.XYZ;
 				PRODUCT_NAME = XYZ;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1196,6 +1197,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.exampl.XYZ;
 				PRODUCT_NAME = XYZ;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
